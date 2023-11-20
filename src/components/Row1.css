@@ -1,0 +1,36 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+.row {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.movie_row {
+    display: flex;
+    overflow-x: scroll;
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    margin-top: 10px;
+}
+
+.movies {
+    width: 100%;
+    object-fit: cover;
+    margin-right: 20px;
+    height: 100px;
+    transition: 450ms;
+    border-radius: 5px;
+}
+
+.movies:hover {
+    transform: scale(1.6);
+    object-fit: cover;
+}
+

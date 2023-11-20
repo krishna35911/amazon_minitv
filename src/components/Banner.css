@@ -1,0 +1,22 @@
+.slide-container {
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .carousel-caption {
+    text-align: right; /* Align text to the right */
+    left: auto; /* Reset left positioning */
+    right: 10%; /* Adjust the distance from the right side */
+    bottom: 20%;
+    transform: none !important; /* Reset the transform property */
+    text-align: center;
+  }
+
+
+  .carousel-control-prev-icon,.carousel-control-next-icon,.carousel-indicators
+  {
+    background-color: transparent;
+  border-color: transparent;
+  color: #E0E0E0;
+  font-weight: bold;
+  }
